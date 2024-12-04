@@ -1,0 +1,120 @@
+
+/* ------------------ ---------------------- ------------------- --------- */
+/* mobile */
+@media(min-width:0px) and (max-width:659px){
+
+html{
+    --var-bleu1-color:#0FC7E8;
+    --var-bleu2-color:#87D7E7;
+    --var-bleu3-color:#1D1DFF;
+    --var-bleu4-color:#44C7CE;
+    --var-gris-color:#D9D9D9;
+    --var-bleu5-color:#2b7d8c;
+
+
+
+
+
+}
+body{
+    margin: auto;
+}
+/* header : UCC DOCS */
+#NomAppli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--var-bleu1-color);
+    color: white;
+    height:50px ;
+}
+/* header : icone1(logo) */
+#icone1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--var-bleu2-color);
+    color: white;
+}
+/* section : creer votre compte UCC DOCS et logo */
+#titleLogin
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    padding: 40px;
+
+}
+
+#imagecreercompte{
+    border-radius: 22px;
+    width: 197px;
+    height: 156px;
+
+}
+#logoheader2{
+    border-radius: 22px;
+    width: 37px;
+    height: 36px;
+    
+}
+#corpsLogin{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+
+}
+#connexionsec{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+}
+#seConnecterB a{
+    text-decoration: none;
+    background-color: var(--var-bleu4-color);
+    border-radius: 35px;
+    color: white;
+
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px var(--var-gris-color);
+}
+#seConnecterB :hover{
+    text-decoration: none;
+    background-color: var(--var-bleu5-color);
+    color: white;
+    border-radius: 35px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px var(--var-gris-color);
+}
+
+input{
+    border-radius: 30px;
+    padding: 1em;
+    width: 281px;
+}
+body{
+    height: 100vh;
+}
+
+
+
+
+
+
+}
