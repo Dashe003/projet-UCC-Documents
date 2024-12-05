@@ -1,0 +1,115 @@
+
+
+/* ------------------ le responsive mobile ---------------------- */
+/* mobile */
+@media(min-width:0px) and (max-width:659px){
+    /* couleurs reutilisables */
+    html{
+        --var-bleu1-color:#0FC7E8;
+        --var-bleu2-color:#87D7E7;
+        --var-bleu3-color:#1D1DFF;
+        --var-bleu4-color:#44C7CE;
+        --var-gris-color:#D9D9D9;
+        --var-bleu5-color:#2b7d8c;
+    }
+    body{
+        margin: auto;
+        height: 100vh;
+    }
+
+    /* header : UCC DOCS */
+    #Nom_Appli{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--var-bleu1-color);
+        color: white;
+        height:50px ;
+    }
+
+    /* header : icone1(logo) */
+    #icone1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--var-bleu2-color);
+        color: white;
+    }
+
+    /* section : creer votre compte UCC DOCS et img */
+    #Text_creerVotreCompte{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        padding: 40px;
+    }
+
+    /* image document */
+    #imagecreercompte{
+        border-radius: 22px;
+        width: 197px;
+        height: 156px;
+    }
+
+    /* logo ucc */
+    #logoheader2{
+        border-radius: 22px;
+        width: 37px;
+        height: 36px;
+    }
+
+    /* section inputs coordonee(matricule et mot de passe) */
+    #corps_Login{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+
+    /* section avec confimation(se conneter, creer un compte) */
+    #section_connexion{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+    }
+
+    /* bouton se connecter */
+    #Bouton_seConnecter a{
+        text-decoration: none;
+        background-color: var(--var-bleu4-color);
+        border-radius: 35px;
+        color: white;
+        height: 51px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px var(--var-gris-color);
+    }
+
+    /* bouton se connecter */
+    #Bouton_seConnecter :hover{
+        text-decoration: none;
+        background-color: var(--var-bleu5-color);
+        color: white;
+        border-radius: 35px;
+        height: 51px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px var(--var-gris-color);
+    }
+
+    /* les inputs */
+    input{
+        border-radius: 30px;
+        padding: 1em;
+        width: 281px;
+    }
+
+}
