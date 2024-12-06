@@ -1,5 +1,4 @@
 
-
 /* ------------------ le responsive mobile ---------------------- */
 /* mobile */
 @media(min-width:0px) and (max-width:659px){
@@ -13,6 +12,7 @@
         --var-bleu5-color:#2b7d8c;
     }
     body{
+        font-family: 'Arial', sans-serif;
         margin: auto;
         height: 100vh;
     }
@@ -110,6 +110,6 @@
         border-radius: 30px;
         padding: 1em;
         width: 281px;
+        border: 2px solid #08849a;
     }
-
 }
