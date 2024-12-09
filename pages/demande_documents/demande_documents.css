@@ -11,6 +11,7 @@
         --var-bleu5-color:#2b7d8c;
     }
     body{
+        text-align: center;
         margin: auto;
     }
     p{
@@ -44,12 +45,16 @@
             width: 37px;
             height: 36px;
         }
+        #text{
+            padding: 15px;
+        }
+
         /* corps avec options */
         #conteneur{
-            height: 730px;
+            height: 500px;
             display: grid;
-            margin: 15px;
-            gap: 5px;
+            margin: 20px;
+            gap: 10px;
             text-align: center;
             justify-content: center;
             align-items: center;
@@ -60,8 +65,14 @@
         }
         #icon {
             width: 90%;
-            
         }
+
+
+
+
+
+
+
         /* barre de navigation  */
         #nav_bar {
             height: 75px;
@@ -74,6 +85,7 @@
             gap: 37%;
             bottom: 0;
             left: 0;
+            /* position: fixed; */
         }
         /* sous div1 de la barre de navigation */
         #icone_nav {
@@ -94,16 +106,6 @@
             border-radius: 20px;
             text-align: center !important;
             background-color: #2b7d8c7b ;
-            width: 70px;
-            height: 40px;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        /* boutons de la barre de nav : survoler*/
-        .bouton :hover{
-            /* border-radius: 20px; */
-            text-align: center !important;
-            color: #1c4951;
             width: 70px;
             height: 40px;
             text-decoration: none;
