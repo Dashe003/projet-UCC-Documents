@@ -11,8 +11,82 @@
         --var-bleu5-color:#2b7d8c;
     }
     body{
+        font-family: 'Arial', sans-serif;
         margin: auto;
         height: 100vh;
     }
     
+    /* header : UCC DOCS */
+    #Nom_Appli{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--var-bleu1-color);
+        color: white;
+        height:50px ;
+    }
+     /* logo ucc */
+     #logoheader2{
+        border-radius: 22px;
+        width: 37px;
+        height: 36px;
+    }
+
+    /* header : icone1(logo) */
+    #icone1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--var-bleu2-color);
+        color: white;
+
+    }
+    
+    #Creer_votre_compte{
+        text-align: center;
+        padding: 40px;
+        
+
+    }
+    #image_doc{
+        
+        border-radius: 22px;
+        width: 197px;
+        height: 156px;
+    }
+    #section_input{
+        text-align: center;
+        padding-bottom:5%;
+
+    }
+    #section_input p{
+        text-align: left;
+        display: block;
+        padding-left: 15%;
+    }
+    input{
+        border-radius: 30px;
+        padding: 1em;
+        width: 281px;
+        border: 2px solid #08849a;
+    }
+    #icone2{
+        width: 19px;
+    }
+    #section_bouton{
+        display: flex;
+        justify-content: center;
+        gap: 40%;
+        padding: 20px;
+    }
+    #div_bouton{
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }

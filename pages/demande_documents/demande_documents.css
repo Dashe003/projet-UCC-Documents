@@ -58,19 +58,16 @@
             text-align: center;
             justify-content: center;
             align-items: center;
+
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2,1fr);
             grid-template-areas:
-                "demander_doc notification"
-                "historique etat_actuel"
-                "a_propos aide";
+                "Attestation_scolarite releve_notes"
+                "certifcat_reussite lettre_recommandation"
         }
         #icon {
             width: 90%;
         }
-
-
-
-
-
 
 
         /* barre de navigation  */
